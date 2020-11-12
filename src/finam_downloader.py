@@ -111,7 +111,7 @@ if __name__ == "__main__":
     Проверьте наличие тикера в файле settings.py
     """
     # path_data = '../data'  # Папка для сохранения файлов котировок (родительский каталог, папка data)
-    path_data = 'c:/data_finam_csv'  # Папка для сохранения файлов котировок (папка c:/data_finam_csv)
+    path_data = 'c:/data_finam_quote_csv'  # Папка для сохранения файлов котировок (папка c:/data_finam_csv)
     ticker = "SPFB.RTS"  # задаём тикер
     period = 3  # задаём период. Выбор из: 'tick': 1, 'min': 2, '5min': 3, '10min': 4, '15min': 5, '30min': 6, 'hour': 7
     start = "01.01.2020"  # с какой даты начинать тянуть котировки
@@ -128,3 +128,4 @@ if __name__ == "__main__":
         download_date = single_date.strftime('%Y%m%d')  # Дата для закачки котировок
         file_name_date = single_date.strftime('%y%m%d')  # Дата которую будем подставлять в имя файла
         data.run(download_date, file_name_date)
+    print('Закачка которовок завершена. Удалите пустые файлы.')

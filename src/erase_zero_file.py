@@ -38,7 +38,7 @@ def get_size_dir(path_dir):
 
 if __name__ == "__main__":
     # path_storage = Path('../data_finam')  # Путь до каталога data_finam который находиться в родит. каталоге
-    path_storage = Path('c:/data_finam_csv')  # Путь по которому нужно стереть пустые файлы
+    path_storage = Path('c:/data_finam_quote_csv')  # Путь по которому нужно стереть пустые файлы
     
     del_file(path_storage)
     get_size_dir(path_storage)
