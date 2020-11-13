@@ -53,7 +53,7 @@ TICKERS = {'ABRD': 82460, 'AESL': 181867, 'AFKS': 19715, 'AFLT': 29, 'AGRO': 399
            'ZHIV': 181674, 'ZILL': 81918, 'ZMZN': 556, 'ZMZNP': 603, 'ZVEZ': 82001,
 
            # FUTURE
-           'SPFB.RTS': 17455}
+           'SPFB.RTS': 17455, 'SPFB.BR': 22460}
 
 
 """
